@@ -1,7 +1,7 @@
 builders:
   feign:
     target: ":feign"
-    import: "package:feign_generator/FeignGenerator.dart"
+    import: "package:flutter_feign_generator/FeignGenerator.dart"
     builder_factories: ["feignBuilder"]
     build_extensions: { ".dart": [".feign.g.part"] }
     auto_apply: dependents
